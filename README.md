@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/garimachawla21/udacityProject4/tree/master.svg?style=svg)](https://circleci.com/gh/garimachawla21/udacityProject4/tree/master)
+[![CircleCI](https://circleci.com/gh/garimachawla21/udacityProject4/tree/main.svg?style=svg)](https://circleci.com/gh/garimachawla21/udacityProject4/tree/main)
 
 ## Project Overview
 
