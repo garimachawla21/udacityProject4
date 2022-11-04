@@ -1,0 +1,23 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+pod/udacityproject4 created
+NAME              READY   STATUS              RESTARTS   AGE
+udacityproject4   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(venv) garimachawla@Garimas-MacBook-Pro project-ml-microservice-kubernetes % kubectl get pod
+NAME              READY   STATUS    RESTARTS   AGE
+udacityproject4   1/1     Running   0          98s
+(venv) garimachawla@Garimas-MacBook-Pro project-ml-microservice-kubernetes % ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacityproject4" already exists
+NAME              READY   STATUS    RESTARTS   AGE
+udacityproject4   1/1     Running   0          102s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
